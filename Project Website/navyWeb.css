@@ -1,0 +1,45 @@
+.wNavy{
+    background-color: #0046B1;
+    color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wNavy h2{
+    /* width: 50%; */
+}
+
+.wNavy2{
+    background: rgb(0,70,177);
+    background: linear-gradient(90deg, rgba(0,70,177,1) 70%, rgba(179,254,74,1) 71%);}
+
+.green{
+    color: #B3FE4A;
+}
+
+.wNavy1{
+    background-color: #B3FE4A;
+    color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+
+    /* text-align: center; */
+}
+
+/* .wNavy1 img{
+    justify-content: center;
+} */
+
+
+.Icon{
+    background-color: #0046B1;
+    border-radius: 20px;
+    height: 200px;
+    width: 200px;
+    align-items: center;
+}
+
+.search{
+    /* justify-content: space-around; */
+    background-color: lightgray;
+    border-radius: 70px;
+
+}

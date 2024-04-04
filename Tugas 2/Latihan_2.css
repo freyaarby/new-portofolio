@@ -1,0 +1,190 @@
+.atas{
+    background-color: #199648;
+    text-align: center;
+    padding-left: 500px;
+    padding-right: 500px;
+}
+
+.atas h2{
+    float: left;
+    background-color: #68DD94;
+    border-radius: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.atas li{
+    list-style: none;
+    display: inline-block;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #68DD94;
+    margin: 10px;
+    border-radius: 10px;
+    /* margin-right: 70px; */
+    /* padding-right: 100px; */
+}
+
+.dibawahAtas{
+    background-color: #DFE2E4;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.isiKonten{
+    width: 50%;
+    /* background-color: bisque; */
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin: auto;
+}
+
+.isiNya{
+    float: left;
+    width: 30%;
+    height: 300px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.penutup{
+    background-color: #CEEAD8;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.clear{
+  clear: left;
+}
+
+.atas li:hover{
+    width: 80px;
+}
+
+
+
+
+@media (min-width: 320px) {
+    .isiNya{
+        float: none;
+        width: 100%;
+        height: 100%;
+        /* margin: 0; */
+        
+        /* width: 0;
+        height: 0;
+        padding-left: 0;
+        padding-right: 0; */
+    }
+    
+    .isiKonten{
+        width: 100%;
+        margin: 0;
+    }
+    
+    .atas{
+        display: block;
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 5%;
+        text-align: center;
+        height: 170px;
+        
+    }
+    
+    .atas h2{
+        width:70%;
+        margin: 0 auto;
+        /* padding-top: 20px;
+        
+        margin-left: 5%;
+        margin-right: 5%; */
+        float: none;
+        border-radius: 8px;
+    }
+    
+    .atas li{
+        width: 70%;
+        margin: 10px auto;
+        
+        border-radius: 6px;
+    }
+    .atas ul{
+        
+        padding:  0;
+    }
+    
+    .atas li{
+        display: block;
+    }
+    
+    .isiNya:nth-child(4){
+        display: none;
+    }
+    
+    .isiNya:nth-child(5){
+        display: none;
+    }
+    
+    .isiNya:nth-child(6){
+        display: none;
+    }
+}
+
+@media (min-width: 760px) {
+    .atas {
+        display: flex;
+        height: 70px;
+
+        justify-content: center;
+        align-items: center;
+
+        padding-top: 10px;
+    }
+    
+    .atas ul{
+        display: flex;
+    }
+    
+    .atas li{
+        margin-right: 10px;
+    }
+    
+    .atas h2{
+        width: 10%;
+        margin: 0;
+        margin-right: 100px;
+        height: 38px;
+    }
+}
+
+@media (min-width: 1280px) {
+
+    .isiNya:nth-child(4){
+        display: block;
+    }
+
+    .isiNya:nth-child(5){
+        display: block;
+    }
+
+    .isiNya:nth-child(6){
+        display: block;
+    }
+
+    .isiKonten{
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .isiNya{
+        width: 30%;
+    }
+
+}
